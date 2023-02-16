@@ -1,5 +1,3 @@
-# IceNet: a probabilistic, deep learning sea ice forecasting system
-
 ## What is IceNet?
 
 IceNet is a probabilistic, deep learning sea ice forecasting system developed by an [international team and led by British Antarctic Survey and The Alan Turing Institute](https://www.nature.com/articles/s41467-021-25257-4). The [original IceNet research model](https://www.github.com/tom-andersson/icenet-paper) was trained on climate simulations and observational data to forecast the next 6 months of monthly-averaged sea ice concentration maps. This IceNet model advanced the range of accurate sea ice forecasts, outperforming a state-of-the-art dynamical model in seasonal forecasts of summer sea ice, particularly for extreme sea ice events. The IceNet model was made into [a library for operational forecasting](https://github.com/icenet-ai/icenet) and has now extends functionality to enable daily resolution forecasting, as well as to support further research efforts into the research area. This step-change in sea ice forecasting ability brings us closer to conservation tools that mitigate risks associated with rapid sea ice loss. 
