@@ -15,8 +15,6 @@ For further information about the team involved, please look at the [project pag
 
 For some high level information, review the [project repository](https://github.com/icenet-ai/icenet-project). If you want to dive straight into the technicals, likely you'll want to start with the [icenet library](https://github.com/icenet-ai/icenet/), [icenet-pipeline operational usage example](https://github.com/icenet-ai/icenet-pipeline/) and/or [the icenet-notebooks repository which explains both CLI and programmatic usage](https://github.com/icenet-ai/icenet-notebooks/).
 
-:ice_cube: :ice_cube: Happy forecasting! :ice_cube: :ice_cube:
-
 <!--
 
 **Here are some ideas to get you started:**
