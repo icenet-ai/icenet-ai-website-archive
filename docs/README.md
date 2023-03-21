@@ -1,4 +1,4 @@
-## What is IceNet?
+# IceNet
 
 IceNet is a deep learning sea ice forecasting system developed by an [international team and led by the British Antarctic Survey and The Alan Turing Institute](https://www.bas.ac.uk/media-post/artificial-intelligence-to-help-predict-arctic-sea-ice-loss/).
 The original IceNet research model, [published in *Nature Communicaitons*](https://www.nature.com/articles/s41467-021-25257-4) was trained on climate simulations and observational data to forecast the next 6 months of monthly-averaged sea ice concentration maps.
