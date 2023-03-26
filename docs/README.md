@@ -26,4 +26,4 @@ For some high level information, review the [project repository](https://github.
 🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 -->
 
-![](https://scotthosking.com/images/icenet/icenet_architecture.png)
+![](assets/images/icenet_architecture.png)
