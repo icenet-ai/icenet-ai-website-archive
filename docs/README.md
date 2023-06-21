@@ -59,6 +59,22 @@ This is the public project repository where we manage the collaboration between 
 
 ## Presentations
 
-* [James Byrne](https://www.bas.ac.uk/profile/jambyr) described how the IceNet project reflects best practice software engineering for climate science at [Climate Informatics 2023](https://cambridge-iccs.github.io/climate-informatics-2023/), watch it below: 
+* [Scott Hosking](https://scotthosking.com/) of [BAS](https://www.bas.ac.uk/profile/jask/) and [The Alan Turing Institute](https://www.turing.ac.uk/people/researchers/scott-hosking) highlighting the importance of AI approaches on Al Jazeera. 
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ILkdToflkZ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+* [James Byrne](https://www.bas.ac.uk/profile/jambyr) described how the IceNet project reflects best practice software engineering for climate science at [Climate Informatics 2023](https://cambridge-iccs.github.io/climate-informatics-2023/)...
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/sfmVOaR_YCg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+* ...and demonstrated the original proof of concept pipeline approach online for AI UK 2022 with [Tom Andersson](https://www.bas.ac.uk/profile/tomand) and [James Robinson](https://www.turing.ac.uk/people/researchers/james-robinson)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/KqnHCAec0Zg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+* [Tom Andersson](https://www.bas.ac.uk/profile/tomand) describing IceNet...
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/lzJA7r0oNcg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+* ...and giving a more detailed talk on the research.
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/JAKWhEU09Xo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
