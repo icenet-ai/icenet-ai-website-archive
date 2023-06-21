@@ -13,7 +13,45 @@ For further information about the team involved, please look at the [project pag
 
 ## How do I get started?
 
-For some high level information, review the [project repository](https://github.com/icenet-ai/icenet-project). If you want to dive straight into the technicals, likely you'll want to start with the [icenet library](https://github.com/icenet-ai/icenet/), [icenet-pipeline operational usage example](https://github.com/icenet-ai/icenet-pipeline/) and/or [the icenet-notebooks repository which explains both CLI and programmatic usage](https://github.com/icenet-ai/icenet-notebooks/).
+Please visit the [icenet-notebooks](https://github.com/icenet-ai/icenet-notebooks) repository and check out the instructions there! :wink: 
+
+The repositories listed below are the key ones to pay attention to.
+
+### Repositories
+
+#### [icenet-notebooks](https://github.com/icenet-ai/icenet-notebooks)
+
+Example notebooks showing how to use the library.
+
+#### [icenet](https://github.com/icenet-ai/icenet)
+
+The IceNet library, containing documentation sources. Probably easiest to start with the [icenet-notebooks](https://github.com/icenet-ai/icenet-notebooks) or [icenet-pipeline](https://github.com/icenet-ai/icenet-pipeline) repositories for guidance in the first instance.
+
+#### [icenet-pipeline](https://github.com/icenet-ai/icenet-pipeline)
+
+A detailed explanation of the machine learning pipeline can be [found here](https://github.com/icenet-ai/icenet-project/wiki/Model-Pipeline). Fundamentally, there is a reusable and continuously executable pipeline from data ingestion through to forecast production and upload. This repository complements the icenet-notebooks repository which explains both CLI and programmatic usage, by actually implementing a load of workflows in bash.
+
+This high level diagram depicts the structuring of the pipeline:
+
+<img src="https://github.com/icenet-ai/icenet-project/wiki/Pipeline%20Layout.png" alt="IceNet ML Pipeline" />  
+
+The daily forecasting pipeline centers around a refactored version [of the original research model for monthly forecasts](https://github.com/tom-andersson/icenet-paper), located [in this library](https://www.github.com/icenet-ai/icenet). An example to using the library [can be found here](https://github.com/icenet-ai/icenet-pipeline) which leverage a BAS developed tool for running [model ensembles.](https://github.com/JimCircadian/model-ensembler) on HPCs.
+
+#### [icenet-etl](https://github.com/icenet-ai/icenet-etl)
+
+This project is for the code that provisions the Azure cloud infrastructure. It sets up various Azure resources and is currently under heavy development.
+
+Forecast NetCDFs are deposited into the cloud infrastructure for dissemination and processing.
+
+For further details [look at the repository here](https://github.com/icenet-ai/icenet-etl).
+
+#### [icenet-geoapi](https://github.com/icenet-ai/icenet-geoapi)
+
+This project has been merged with the [icenet-etl](https://github.com/icenet-ai/icenet-etl) project. 
+
+#### [icenet-project](https://github.com/icenet-ai/icenet-project)
+
+This is the public project repository where we manage the collaboration between the [British Antarctic Survey (BAS)](https://www.bas.ac.uk) and [Alan Turing Institute (ATI)](https://turing.ac.uk). We're always happy to have additional contributors so please feel free to drop by!
 
 ## Publications
 
