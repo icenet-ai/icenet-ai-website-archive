@@ -15,15 +15,12 @@ For further information about the team involved, please look at the [project pag
 
 For some high level information, review the [project repository](https://github.com/icenet-ai/icenet-project). If you want to dive straight into the technicals, likely you'll want to start with the [icenet library](https://github.com/icenet-ai/icenet/), [icenet-pipeline operational usage example](https://github.com/icenet-ai/icenet-pipeline/) and/or [the icenet-notebooks repository which explains both CLI and programmatic usage](https://github.com/icenet-ai/icenet-notebooks/).
 
-<!--
+## Publications
 
-**Here are some ideas to get you started:**
+* [Tom Andersson's original IceNet research paper, published in Nature Communications](https://www.nature.com/articles/s41467-021-25257-4)
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+## Presentations
 
-![](assets/images/icenet_architecture.png)
+* [James Byrne](https://www.bas.ac.uk/profile/jambyr) described how the IceNet project reflects best practice software engineering for climate science at [Climate Informatics 2023](https://cambridge-iccs.github.io/climate-informatics-2023/), watch it below: 
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/sfmVOaR_YCg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
