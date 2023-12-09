@@ -1,0 +1,173 @@
+#
+# Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
+#
+# Configuration: Add to _config.yml
+# locale: "en-US"  [YOUR PREFERRED LOCALE]
+#
+# How to use:
+# {{ site.data.ui-text[site.locale].<var_name> | default: 'text' }}
+
+# English (default)
+# -----------------
+en: &DEFAULT_EN
+  header:
+    title: AI powered
+    text: Sea ice forecasts
+    button: Tell Me More
+    buttonlink: "#repository"
+
+  about:
+    title: "About IceNet"
+    text: 'What is this AI powered forecasting all about?'
+    body: IceNet is a deep learning sea ice forecasting system developed by an [international team and led by the British Antarctic Survey and The Alan Turing Institute](https://www.bas.ac.uk/media-post/artificial-intelligence-to-help-predict-arctic-sea-ice-loss/). The original IceNet research model, [published in *Nature Communications*](https://www.nature.com/articles/s41467-021-25257-4) was trained on climate simulations and observational data to forecast the next 6 months of monthly-averaged sea ice concentration maps. This version advanced the range of accurate sea ice forecasts, outperforming a state-of-the-art dynamical model (ECMWF SEAS5) in seasonal forecasts of summer sea ice, particularly for extreme sea ice events.<br /><br />Since then, the IceNet team has focussed on building an operational version of the model which forecasts on a daily resolution. The [original research code](https://www.github.com/tom-andersson/icenet-paper) was refactored into `icenet` - [a library for operational forecasting](https://github.com/icenet-ai/icenet). The `icenet` library can support further research efforts into AI-based operational sea ice forecasting.<br /><br />In addition, several use cases and an ecosystem of service components are contained within this organisation, supporting execution and downstream analysis.<br /><br />For further information about the team involved, please look at the [project pages at BAS](https://www.bas.ac.uk/project/icenet/) or [The Alan Turing Institute](https://www.turing.ac.uk/news/artificial-intelligence-help-predict-arctic-sea-ice-loss)."
+
+    section: about
+
+  repository:
+    title: "Repositories"
+    text: "The various repositories under the IceNet project, click for more information"
+    section: repository
+    closebutton: "Close Information"
+
+  timeline:
+    title: "A list of outputs"
+    text: "Here's a list of publications, videos and presentations around IceNet and it's infrastructure."
+    section: timeline
+    events:
+      - title: "The original research paper"
+        year: "2021"
+        image: assets/img/timeline/2021_paper.png
+        desc: "[Tom Andersson's original IceNet research paper, published in Nature Communications](https://www.nature.com/articles/s41467-021-25257-4)"
+        url: https://www.nature.com/articles/s41467-021-25257-4
+        align: right
+      - title: "Seasonal Arctic sea ice forecasting with probabilistic deep learning"
+        year: "2021"
+        image: assets/img/timeline/2021_research_talk.png
+        desc: 'A detailed walkthrough the research.'
+        html: '<iframe width="400" height="250" src="https://www.youtube-nocookie.com/embed/JAKWhEU09Xo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
+        align: left
+      - title: "Predicting Sea Ice using AI - a general introduction"
+        year: "2021"
+        image: assets/img/timeline/2021_ai_sea_ice.png
+        desc: '[Tom Andersson](https://www.bas.ac.uk/profile/tomand) describing IceNet.'
+        html: '<iframe width="400" height="250" src="https://www.youtube-nocookie.com/embed/lzJA7r0oNcg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
+        align: right
+      - title: "AI UK"
+        year: "2022"
+        image: assets/img/timeline/2022_aiuk_workshop.png
+        desc: 'Demonstration of the original proof of concept pipeline approach online for AI UK 2022 with [James Byrne](https://www.bas.ac.uk/profile/jambyr) and [James Robinson](https://www.turing.ac.uk/people/researchers/james-robinson).'
+        html: '<iframe width="400" height="250" src="https://www.youtube-nocookie.com/embed/KqnHCAec0Zg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
+      - title: "Climate Informatics"
+        year: "2023"
+        image: assets/img/timeline/2023_climate_informatics.png
+        desc: '[James Byrne](https://www.bas.ac.uk/profile/jambyr) described how the IceNet project used software engineering to operationalise research for climate science at [Climate Informatics 2023](https://cambridge-iccs.github.io/climate-informatics-2023/).'
+        html: '<iframe width="400" height="250" src="https://www.youtube-nocookie.com/embed/sfmVOaR_YCg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
+        align: right
+      - title: "Some reasoning about AI approaches"
+        year: "2023"
+        image: assets/img/timeline/2023_ai_reasoning.png
+        desc: '[Scott Hosking](https://scotthosking.com/) of [BAS](https://www.bas.ac.uk/profile/jask/) and [The Alan Turing Institute](https://www.turing.ac.uk/people/researchers/scott-hosking) highlighting the importance of AI approaches on Al Jazeera.'
+        html: '<iframe width="400" height="250" src="https://www.youtube-nocookie.com/embed/ILkdToflkZ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
+    end: "Join the sea-ice forecasting crew by getting involved on GitHub!"
+
+  clients:
+    section: clients
+    max-height: 0px
+    horizontal-scrolling: "" #"yes/no"
+    list: []
+    #      - title: "envato"
+    #        url: https://github.com/raviriley/agency-jekyll-theme
+    #        logo: assets/img/clients/envato.jpg
+
+  team:
+    title: "The IceNet Team"
+    text: "Here we name the ongoing collaborators who manage the project."
+    subtext: The IceNet project is a collaboration between The Alan Turing Institute and British Antarctic Survey. It's only made possible thanks to the contributions of many across the environmental research, data science and international sea-ice and ecosystems communities at large. *The names here are only those who continually manage the project*, **but many more have been responsible for the innovation and research that makes IceNet "an infrastructure for the future"**!
+    section: team
+
+    people:
+      - name: "Scott Hosking"
+        role: "Principal Investigation"
+        image: assets/img/team/scott-hosking.jpg
+        social:
+          - url: https://scotthosking.com/
+            icon: fas fa-window-maximize
+          - url: https://twitter.com/scotthosking
+            icon: fab fa-twitter
+          - url: https://www.linkedin.com/in/scotthosking/
+            icon: fab fa-linkedin-in
+          - url: https://www.github.com/scotthosking/
+            icon: fab fa-github
+
+      - name: "James Byrne"
+        role: "Lead Research Software Engineer"
+        image: assets/img/team/james-byrne.jpg
+        social:
+          - url: https://inconsistentrecords.co.uk/
+            icon: fas fa-window-maximize
+          - url: https://twitter.com/jimcircadian
+            icon: fab fa-twitter
+          - url: https://www.linkedin.com/in/jimcircadian/
+            icon: fab fa-linkedin-in
+          - url: https://www.github.com/jimcircadian/
+            icon: fab fa-github
+
+      - name: "Ellen Bowler"
+        role: "Ecosystems Researcher"
+        image: assets/img/team/ellen-bowler.jpg
+        social:
+          - url: https://twitter.com/EllieBowler32
+            icon: fab fa-twitter
+          - url: https://www.github.com/EllieBowler/
+            icon: fab fa-github
+
+      - name: "Alden Conner"
+        role: "Research Application Manager"
+        image: assets/img/team/alden-conner.jpg
+        social:
+          - url: https://twitter.com/alden_tweets
+            icon: fab fa-twitter
+          - url: https://www.github.com/aldenc/
+            icon: fab fa-github
+
+      - name: "Tom Andersson"
+        role: "Original ML Researcher"
+        image: assets/img/team/tom-andersson.jpg
+        social:
+          - url: https://twitter.com/tom_r_andersson
+            icon: fab fa-twitter
+          - url: https://www.linkedin.com/in/tom-andersson/
+            icon: fab fa-linkedin-in
+          - url: https://www.github.com/tom-andersson/
+            icon: fab fa-github
+
+  contact:
+    title: "<br />Contact Us"
+    text: "<br /><br />Please contact jambyr &lt;at&gt; bas &lt;dot&gt; ac &lt;dot&gt; uk"
+    section: contact
+    #    name: "Name*"
+    #    name-validation: "Please enter your name."
+    #    email: "Email*"
+    #    email-validation: "Please enter your email address."
+    #    phone: "Phone Number"
+    #    phone-validation: "Please enter your phone number."
+    #    message: "Message*"
+    #    message-validation: "Please enter a message."
+    #    subject: "Contact Form Submission"
+    #    submit: "Send Message"
+
+  footer:
+    legal: "Privacy Policy"
+    social:
+      - url: https://twitter.com/icenet-ai
+        icon: "fab fa-twitter"
+      - url: https://github.com/icenet-ai
+        icon: "fab fa-github"
+en-US:
+  <<: *DEFAULT_EN
+en-CA:
+  <<: *DEFAULT_EN
+en-GB:
+  <<: *DEFAULT_EN
+en-AU:
+  <<: *DEFAULT_EN
