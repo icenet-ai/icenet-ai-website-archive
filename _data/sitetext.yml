@@ -141,6 +141,14 @@ en: &DEFAULT_EN
           - url: https://www.github.com/tom-andersson/
             icon: fab fa-github
 
+      - name: "James Robinson"
+        role: "Research Software Engineer"
+        image: assets/img/team/james-robinson.jpg
+        social:
+          - url: https://www.linkedin.com/in/jamesemrobinson/
+            icon: fab fa-linkedin-in
+          - url: https://www.github.com/jemrobinson/
+            icon: fab fa-github
   contact:
     title: "<br />Contact Us"
     text: "<br /><br />Please contact jambyr &lt;at&gt; bas &lt;dot&gt; ac &lt;dot&gt; uk"
