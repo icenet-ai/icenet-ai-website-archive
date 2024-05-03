@@ -149,6 +149,20 @@ en: &DEFAULT_EN
             icon: fab fa-linkedin-in
           - url: https://www.github.com/jemrobinson/
             icon: fab fa-github
+
+      - name: "Andrew McDonald"
+        role: "PhD Student"
+        image: assets/img/team/andrew-mcdonald.jpg
+        social:
+          - url: https://ampersandmcd.com/
+            icon: fas fa-window-maximize
+          - url: https://twitter.com/ampersandmcd
+            icon: fab fa-twitter
+          - url: https://www.linkedin.com/in/ampersandmcd/
+            icon: fab fa-linkedin-in
+          - url: https://www.github.com/ampersandmcd/
+            icon: fab fa-github
+
   contact:
     title: "<br />Contact Us"
     text: "<br /><br />Please contact jambyr &lt;at&gt; bas &lt;dot&gt; ac &lt;dot&gt; uk"
