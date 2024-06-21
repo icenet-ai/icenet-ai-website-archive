@@ -165,7 +165,7 @@ en: &DEFAULT_EN
 
       - name: "Luigi Tommaso Luppino"
         role: "ML Researcher"
-        image: assets/img/team/luppino.jpg
+        image: assets/img/team/luigi-luppino.jpg
         social:
           - url: https://sites.google.com/view/luppino/home?authuser=0
             icon: fas fa-window-maximize
@@ -176,7 +176,7 @@ en: &DEFAULT_EN
             
       - name: "Lars Uebbing"
         role: "PhD Student"
-        image: assets/img/team/uebbing.jpg
+        image: assets/img/team/lars-uebbing.jpg
         social:
           - url: https://www.linkedin.com/in/lars-uebbing-b64662213/
             icon: fab fa-linkedin-in
