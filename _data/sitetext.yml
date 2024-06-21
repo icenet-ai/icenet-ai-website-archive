@@ -163,6 +163,26 @@ en: &DEFAULT_EN
           - url: https://www.github.com/ampersandmcd/
             icon: fab fa-github
 
+      - name: "Luigi Tommaso Luppino"
+        role: "ML Researcher"
+        image: assets/img/team/luigi-luppino.jpg
+        social:
+          - url: https://sites.google.com/view/luppino/home?authuser=0
+            icon: fas fa-window-maximize
+          - url: https://www.linkedin.com/in/luigi-tommaso-luppino-337436158/
+            icon: fab fa-linkedin-in
+          - url: https://www.github.com/llu025/
+            icon: fab fa-github
+            
+      - name: "Lars Uebbing"
+        role: "PhD Student"
+        image: assets/img/team/lars-uebbing.jpg
+        social:
+          - url: https://www.linkedin.com/in/lars-uebbing-b64662213/
+            icon: fab fa-linkedin-in
+          - url: https://www.github.com/laueb4818/
+            icon: fab fa-github
+
   contact:
     title: "<br />Contact Us"
     text: "<br /><br />Please contact jambyr &lt;at&gt; bas &lt;dot&gt; ac &lt;dot&gt; uk"
