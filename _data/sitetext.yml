@@ -163,6 +163,17 @@ en: &DEFAULT_EN
           - url: https://www.github.com/ampersandmcd/
             icon: fab fa-github
 
+      - name: "Bryn Noel Ubald"
+        role: "Research Software Engineer"
+        image: assets/img/team/bryn-ubald.jpg
+        social:
+          - url: https://www.brynnoelubald.com/
+            icon: fas fa-window-maximize
+          - url: https://www.linkedin.com/in/bryn-noel-ubald/
+            icon: fab fa-linkedin-in
+          - url: https://www.github.com/bnubald/
+            icon: fab fa-github
+
       - name: "Luigi Tommaso Luppino"
         role: "ML Researcher"
         image: assets/img/team/luigi-luppino.jpg
