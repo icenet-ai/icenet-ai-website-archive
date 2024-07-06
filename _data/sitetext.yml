@@ -194,6 +194,20 @@ en: &DEFAULT_EN
           - url: https://www.github.com/laueb4818/
             icon: fab fa-github
 
+
+      - name: "Peter Yatsyshin"
+        role: "TRF Research Fellow"
+        image: assets/img/team/peter-yatsyshin.jpg
+        social:
+          - url: https://www.yatsyshin.com
+            icon: fas fa-window-maximize
+          - url: https://scholar.google.co.uk/citations?hl=en&user=3lNjiWYAAAAJ
+            icon: fab fa-google
+          - url: https://www.github.com/pyatsysh/
+            icon: fab fa-github
+          - url: https://www.linkedin.com/in/peter-yatsyshin-phd/
+            icon: fab fa-linkedin-in
+
   contact:
     title: "<br />Contact Us"
     text: "<br /><br />Please contact jambyr &lt;at&gt; bas &lt;dot&gt; ac &lt;dot&gt; uk"
