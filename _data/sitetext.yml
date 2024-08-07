@@ -29,11 +29,24 @@ en: &DEFAULT_EN
     section: repository
     closebutton: "Close Information"
 
+  getting_started:
+    title: "Getting started"
+    text: "How to get started with the IceNet ecosystem"
+    body: This submission to [the Alan Turing Institute's Environmental Data Science Book](https://edsbook.org/notebooks/gallery/67a1e320-7c47-4ea9-8df8-e868326bc90b/notebook) demonstrates the use of the [IceNet Python library](https://pypi.org/project/icenet/) API for forecasting sea ice for a reduced dataset to demonstrate its capabilities, trained using climate reanalysis and observational data.
+
+    section: getting_started
+
   timeline:
     title: "A list of outputs"
     text: "Here's a list of publications, videos and presentations around IceNet and it's infrastructure."
     section: timeline
     events:
+      - title: "Alan Turing Institute EDSBook publication"
+        year: "2024"
+        image: assets/img/timeline/2024_edsbook.png
+        desc: "[Publication of IceNet usage notebook in the Alan Turing Institute EDSBook](https://edsbook.org/notebooks/gallery/67a1e320-7c47-4ea9-8df8-e868326bc90b/notebook)"
+        url: https://edsbook.org/notebooks/gallery/67a1e320-7c47-4ea9-8df8-e868326bc90b/notebook
+        align: left
       - title: "The original research paper"
         year: "2021"
         image: assets/img/timeline/2021_paper.png
