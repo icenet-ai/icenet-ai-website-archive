@@ -47,40 +47,43 @@ en: &DEFAULT_EN
         desc: "[Publication of IceNet usage notebook in the Alan Turing Institute EDSBook](https://edsbook.org/notebooks/gallery/67a1e320-7c47-4ea9-8df8-e868326bc90b/notebook)"
         url: https://edsbook.org/notebooks/gallery/67a1e320-7c47-4ea9-8df8-e868326bc90b/notebook
         align: left
-      - title: "The original research paper"
-        year: "2021"
-        image: assets/img/timeline/2021_paper.png
-        desc: "[Tom Andersson's original IceNet research paper, published in Nature Communications](https://www.nature.com/articles/s41467-021-25257-4)"
-        url: https://www.nature.com/articles/s41467-021-25257-4
-        align: right
-      - title: "Seasonal Arctic sea ice forecasting with probabilistic deep learning"
-        year: "2021"
-        image: assets/img/timeline/2021_research_talk.png
-        desc: 'A detailed walkthrough the research.'
-        html: '<iframe width="400" height="250" src="https://www.youtube-nocookie.com/embed/JAKWhEU09Xo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
-        align: left
-      - title: "Predicting Sea Ice using AI - a general introduction"
-        year: "2021"
-        image: assets/img/timeline/2021_ai_sea_ice.png
-        desc: '[Tom Andersson](https://www.bas.ac.uk/profile/tomand) describing IceNet.'
-        html: '<iframe width="400" height="250" src="https://www.youtube-nocookie.com/embed/lzJA7r0oNcg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
-        align: right
-      - title: "AI UK"
-        year: "2022"
-        image: assets/img/timeline/2022_aiuk_workshop.png
-        desc: 'Demonstration of the original proof of concept pipeline approach online for AI UK 2022 with [James Byrne](https://www.bas.ac.uk/profile/jambyr) and [James Robinson](https://www.turing.ac.uk/people/researchers/james-robinson).'
-        html: '<iframe width="400" height="250" src="https://www.youtube-nocookie.com/embed/KqnHCAec0Zg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
-      - title: "Climate Informatics"
-        year: "2023"
-        image: assets/img/timeline/2023_climate_informatics.png
-        desc: '[James Byrne](https://www.bas.ac.uk/profile/jambyr) described how the IceNet project used software engineering to operationalise research for climate science at [Climate Informatics 2023](https://cambridge-iccs.github.io/climate-informatics-2023/).'
-        html: '<iframe width="400" height="250" src="https://www.youtube-nocookie.com/embed/sfmVOaR_YCg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
-        align: right
       - title: "Some reasoning about AI approaches"
         year: "2023"
         image: assets/img/timeline/2023_ai_reasoning.png
         desc: '[Scott Hosking](https://scotthosking.com/) of [BAS](https://www.bas.ac.uk/profile/jask/) and [The Alan Turing Institute](https://www.turing.ac.uk/people/researchers/scott-hosking) highlighting the importance of AI approaches on Al Jazeera.'
         html: '<iframe width="400" height="250" src="https://www.youtube-nocookie.com/embed/ILkdToflkZ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
+        align: right
+      - title: "Climate Informatics"
+        year: "2023"
+        image: assets/img/timeline/2023_climate_informatics.png
+        desc: '[James Byrne](https://www.bas.ac.uk/profile/jambyr) described how the IceNet project used software engineering to operationalise research for climate science at [Climate Informatics 2023](https://cambridge-iccs.github.io/climate-informatics-2023/).'
+        html: '<iframe width="400" height="250" src="https://www.youtube-nocookie.com/embed/sfmVOaR_YCg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
+        align: left
+      - title: "AI UK"
+        year: "2022"
+        image: assets/img/timeline/2022_aiuk_workshop.png
+        desc: 'Demonstration of the original proof of concept pipeline approach online for AI UK 2022 with [James Byrne](https://www.bas.ac.uk/profile/jambyr) and [James Robinson](https://www.turing.ac.uk/people/researchers/james-robinson).'
+        html: '<iframe width="400" height="250" src="https://www.youtube-nocookie.com/embed/KqnHCAec0Zg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
+        align: right
+      - title: "Predicting Sea Ice using AI - a general introduction"
+        year: "2021"
+        image: assets/img/timeline/2021_ai_sea_ice.png
+        desc: '[Tom Andersson](https://www.bas.ac.uk/profile/tomand) describing IceNet.'
+        html: '<iframe width="400" height="250" src="https://www.youtube-nocookie.com/embed/lzJA7r0oNcg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
+        align: left
+      - title: "Seasonal Arctic sea ice forecasting with probabilistic deep learning"
+        year: "2021"
+        image: assets/img/timeline/2021_research_talk.png
+        desc: 'A detailed walkthrough the research.'
+        html: '<iframe width="400" height="250" src="https://www.youtube-nocookie.com/embed/JAKWhEU09Xo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
+        align: right
+      - title: "The original research paper"
+        year: "2021"
+        image: assets/img/timeline/2021_paper.png
+        desc: "[Tom Andersson's original IceNet research paper, published in Nature Communications](https://www.nature.com/articles/s41467-021-25257-4)"
+        url: https://www.nature.com/articles/s41467-021-25257-4
+        align: left
+    
     end: "Join the sea-ice forecasting crew by getting involved on GitHub!"
 
   clients:
